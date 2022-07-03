@@ -1,12 +1,11 @@
 #https://qiita.com/c-yan/items/dbf2838cdd89864ef5ac
 from numba import jit
-
+from sys import stdin
+readline = stdin.readline
 
 
 def main():
     from builtins import input,int,map,print
-    from sys import stdin
-    readline = stdin.readline
 
     return 0
 
