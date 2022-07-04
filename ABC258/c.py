@@ -1,8 +1,8 @@
 
 def main():
-    from builtins import int,input,map,chr,print
+    from builtins import int,input,map,print
     from collections import deque
-    import copy
+
 
     N , Q = map( int, input().split() )
     S = input()

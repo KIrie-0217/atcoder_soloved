@@ -29,7 +29,7 @@ def main():
 
             # →
             for i in range(N):
-                
+
                 if column+i >= N:
                     column_tmp = column+i - N
                 else:
